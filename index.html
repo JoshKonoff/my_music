@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!--start of container for movie poster-->
+    <div class="container">
+        <button onclick="stopSnippet()">Stop Song</button>
+        <div class="gallery"> <!--add onclick event listener for figures-->
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/alex-haney-MQT_EIghJl4-unsplash.jpg" alt="I got five on it">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/arno-senoner-11h8dPvY_4k-unsplash.jpg" alt="bad boys for life">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/henri-meilhac-jJ0tLs2ROd4-unsplash.jpg" alt="Maybe God is Tryin' to Tell You Somethin'">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/ilona-bellotto-sbUgaxpWiSg-unsplash.jpg" alt="Stand up">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/karina-lago--OpEshnHkWk-unsplash.jpg" alt="I've got a woman">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/toan-nguyen-r0u3LIUYJuE-unsplash.jpg" alt="proud mary">
+            </figure>
+        </div>
+    </div>
+
+</body>
+</html>
